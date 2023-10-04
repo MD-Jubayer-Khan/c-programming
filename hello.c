@@ -1,5 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    printf("Hello I'm getting start with c");
+    int a = 0, i;
+    for (i = 0;i < 5; i++)
+    {
+        continue;
+        a++;
+    }
+    printf("%d %d",i,a);
+    return 0;
 }
