@@ -1,5 +1,4 @@
-/input.txt
-/output.txt
-/hello.exe
-/arithmatic.exe
-/loop.exe
+
+*.exe
+input.txt
+output.txt
