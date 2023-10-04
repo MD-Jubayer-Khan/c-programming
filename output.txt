@@ -1,1 +1,10 @@
-30, 10, 200, 0, 0
+1 - Odd number
+2 - Even number
+3 - Odd number
+4 - Even number
+5 - Odd number
+6 - Even number
+7 - Odd number
+8 - Even number
+9 - Odd number
+10 - Even number
