@@ -1,12 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int a = 0, i;
-    for (i = 0;i < 5; i++)
+    int x = 0;
+    if (x == 1)
     {
-        continue;
-        a++;
+        if (x == 0)
+        {
+            printf("inside if if\n");
+        }
+        else
+        {
+            printf("inside if else\n");
+        }
     }
-    printf("%d %d",i,a);
+    else
+    {
+        printf("inside else\n");
+    }
     return 0;
 }
