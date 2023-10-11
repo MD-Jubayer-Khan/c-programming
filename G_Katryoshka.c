@@ -18,8 +18,10 @@ int main() {
     eye -=min;
     mouth -= min;
     body -= min;
-    if((eye/2)<=body){
-        ans += (eye/2);
+    long long int restEye = eye/2;
+    
+    if(restEye<=body){
+        ans += restEye;
     }else
     {
         ans += body;
