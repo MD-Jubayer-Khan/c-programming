@@ -14,6 +14,11 @@ int main()
         }
         for (int j = 1 ; j <= k; j++)
         {
+            if (i==1)
+            {
+                continue;
+            }
+            
             printf("*");
         }
         if (i <= n-1)
